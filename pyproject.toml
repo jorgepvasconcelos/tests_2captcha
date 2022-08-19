@@ -8,6 +8,7 @@ authors = ["Jorge Vasconcelos <dd@ddd.com>"]
 python = "^3.9"
 selenium-toolkit = "^0.0.3"
 python-dotenv = "^0.20.0"
+2captcha-python = "^1.1.2"
 
 [tool.poetry.dev-dependencies]
 
