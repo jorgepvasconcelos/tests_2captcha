@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
-from decouple import config
+import os
 
 load_dotenv('env.env')
 
 
-API_KEY = config("API_KEY")
+API_KEY = os.getenv("API_KEY")
